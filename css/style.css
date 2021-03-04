@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.text-z-green {color: #0cca4a;}
+.text-z-red {color: #e4572e;}
+.text-z-gray {color: #29335c;}
+.text-z-orange {color: #f3a712;}
+
+.bg-z-green {background-color: #0cca4a;}
+.bg-z-red {background-color: #e4572e;}
+.bg-z-gray {background-color: #29335c;}
+.bg-z-orange {background-color: #f3a712;}
+
+.ff-comfortaa {
+    font-family: 'Comfortaa', cursive;
+}

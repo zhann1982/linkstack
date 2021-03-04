@@ -1,0 +1,30 @@
+{
+  "name": "linkstack",
+  "version": "0.1.0",
+  "description": "Useful stack of links for web developers and programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhann1982/linkstack.git"
+  },
+  "keywords": [
+    "webdev",
+    "links",
+    "web",
+    "design",
+    "code",
+    "programming",
+    "html",
+    "css",
+    "es6"
+  ],
+  "author": "@Zhann1982",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhann1982/linkstack/issues"
+  },
+  "homepage": "https://github.com/zhann1982/linkstack#readme"
+}
