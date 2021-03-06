@@ -16,11 +16,16 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
+
     <title>Link-Stack</title>
 
 </head>
 <body>
 
+    <!-- Logo Header -->
     <div class="container logo-header border-bottom p-3">
         <div class="row">
             <div class="col-3 col-lg-2  logo-icon">
@@ -32,7 +37,9 @@
             </div>
         </div>
     </div>
-    <div class="container">
+
+    <!-- Navbar -->
+    <div class="container nav-container">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-dark bg-z-orange">
                 <div class="container-fluid">
@@ -45,14 +52,22 @@
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">About</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Categories</a>
-                      </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Tutorials
+                          Categories
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Popular</a></li>
+                          <li><a class="dropdown-item" href="#">Youtube</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Other</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Tutorials
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
                           <li><a class="dropdown-item" href="#">Popular</a></li>
                           <li><a class="dropdown-item" href="#">Youtube</a></li>
                           <li><hr class="dropdown-divider"></li>
@@ -73,9 +88,33 @@
         </div>
     </div>
     
+    <div class="container main-container">
+      <div class="row">
+        <div class="categories d-flex d-sm-block flex-wrap p-0 col-sm-3 col-md-2 bg-z-gray">
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Javascript</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">PHP</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">HTML</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Python</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">C++</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">C#</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">C</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Kotlin</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Java</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">NodeJS</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Yarn</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">ReactJS</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">AngularJS</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">VueJS</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Bootstrap</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Materialize</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Tailwind</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">SQL</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">Regex</div></a>
+          <a class="d-block w-xs-z-25p link-light text-decoration-none" href="#"><div class="category-link px-1">CSS</div></a>
+        </div>
+      </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+    
 </body>
 </html>

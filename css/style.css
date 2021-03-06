@@ -13,3 +13,13 @@
 .ff-comfortaa {
     font-family: 'Comfortaa', cursive;
 }
+
+p-0 {
+    padding:0;
+}
+
+@media (max-width: 576px) {
+    .w-xs-z-25p {
+        width: 25%;
+    }
+}
