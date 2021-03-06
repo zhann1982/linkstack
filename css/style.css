@@ -1,5 +1,8 @@
+
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
+/* Custom color theme */
 .text-z-green {color: #0cca4a;}
 .text-z-red {color: #e4572e;}
 .text-z-gray {color: #29335c;}
@@ -10,16 +13,91 @@
 .bg-z-gray {background-color: #29335c;}
 .bg-z-orange {background-color: #f3a712;}
 
+/* Custom classes*/
 .ff-comfortaa {
     font-family: 'Comfortaa', cursive;
 }
 
-p-0 {
+.p-0 {
     padding:0;
 }
 
+/* transparent bg */
+.bg-light-transparent {
+    background-color: #f8f9fabb !important;
+}
+/* we should add some flavors */
+
+
+/* Custom media queries */
+@media (max-width: 999999px) {
+    .w-xxl-z-20p {width: 20%;}
+    .w-xxl-z-25p {width: 25%;}
+    .w-xxl-z-33p {width: 33.33%;}
+    .w-xxl-z-50p {width: 50%;}
+    .w-xxl-z-75p {width: 75%;}
+    .w-xxl-z-100p {width: 100%;}
+}
+
+@media (max-width: 1400px) {
+    .w-xl-z-20p {width: 20%;}
+    .w-xl-z-25p {width: 25%;}
+    .w-xl-z-33p {width: 33.33%;}
+    .w-xl-z-50p {width: 50%;}
+    .w-xl-z-75p {width: 75%;}
+    .w-xl-z-100p {width: 100%;}
+}
+
+@media (max-width: 1200px) {
+    .w-lg-z-20p {width: 20%;}
+    .w-lg-z-25p {width: 25%;}
+    .w-lg-z-33p {width: 33.33%;}
+    .w-lg-z-50p {width: 50%;}
+    .w-lg-z-75p {width: 75%;}
+    .w-lg-z-100p {width: 100%;}
+}
+
+@media (max-width: 992px) {
+    .w-md-z-20p {width: 20%;}
+    .w-md-z-25p {width: 25%;}
+    .w-md-z-33p {width: 33.33%;}
+    .w-md-z-50p {width: 50%;}
+    .w-md-z-75p {width: 75%;}
+    .w-md-z-100p {width: 100%;}
+}
+
+@media (max-width: 768px) {
+    .w-sm-z-20p {width: 20%;}
+    .w-sm-z-25p {width: 25%;}
+    .w-sm-z-33p {width: 33.33%;}
+    .w-sm-z-50p {width: 50%;}
+    .w-sm-z-75p {width: 75%;}
+    .w-sm-z-100p {width: 100%;}
+}
+
 @media (max-width: 576px) {
-    .w-xs-z-25p {
-        width: 25%;
-    }
+    .w-xs-z-20p {width: 20%;}
+    .w-xs-z-25p {width: 25%;}
+    .w-xs-z-33p {width: 33.33%;}
+    .w-xs-z-50p {width: 50%;}
+    .w-xs-z-75p {width: 75%;}
+    .w-xs-z-100p {width: 100%;}
+}
+
+
+/* adding styles to bootstrap class*/
+.container {
+    background-color: white;
+}
+
+/* specified classes - standart css selectors on tags */
+
+/* for links in aside block */
+.category-link {
+    transition: background 200ms linear;
+}
+.category-link:hover {
+    background-color: #0cca4a;
+    color: #29335c;
+    font-weight: bold;
 }
