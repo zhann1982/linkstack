@@ -26,6 +26,14 @@
 .bg-light-transparent {
     background-color: #f8f9fabb !important;
 }
+
+.bg-gray-ea {
+    background-color: #eaeaea;
+}
+
+.bg-white {
+    background-color: #fff;
+}
 /* we should add some flavors */
 
 
